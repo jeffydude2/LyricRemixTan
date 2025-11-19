@@ -3,6 +3,7 @@ $title  = "Lucky";
 $artist = "Crying City";
 $mood   = "Yearning";
 
+//NUMERCAL VALUES
 $preChorusRepeats = 2;  
 $chorusRepeats    = 3;  
 $verseCount       = 1;  
@@ -65,16 +66,11 @@ $bridge = [
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="">
 
     <title>Lyric Remix</title>
     <style>
         body {
             font-family: 'Georgia', serif; 
-            background-image: url('cryingcity.jpg');
-            background-size: cover; /* Changed to cover for a better visual */
-            background-repeat: no-repeat;
-            background-attachment: fixed; /* Optional: fixes the background */
             background: linear-gradient(to bottom,rgb(159, 161, 116), rgb(77, 65, 25));  /* Gradient matching the vibe of the song */
             color:rgb(255, 255, 255); 
             margin: 0;
